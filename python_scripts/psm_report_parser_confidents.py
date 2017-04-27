@@ -1,5 +1,5 @@
 #This script takes in a directory containing psm reports from peptide shaker and determine number of confident, unique proteins identified.
-#It outputs a file that shows the protein by accession and the number of times it was seen confidently.
+#It outputs a file that shows the psm by sequence and the number of times it was seen confidently.
 
 '''
 Usage: psm_report_parser_confident.py protein_report_file_directory

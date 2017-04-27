@@ -1,5 +1,5 @@
 #This script takes in a directory containing peptide reports from peptide shaker and determine number of confident, unique proteins identified.
-#It outputs a file that shows the protein by accession and the number of times it was seen confidently.
+#It outputs a file that shows the peptide by sequence and the number of times it was seen confidently.
 
 '''
 Usage: peptide_report_parser_confident.py protein_report_file_directory
