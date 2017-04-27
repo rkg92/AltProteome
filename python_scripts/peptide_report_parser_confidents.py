@@ -2,7 +2,7 @@
 #It outputs a file that shows the peptide by sequence and the number of times it was seen confidently.
 
 '''
-Usage: peptide_report_parser_confident.py protein_report_file_directory
+Usage: peptide_report_parser_confident.py peptide_report_file_directory
 '''
 
 import sys, glob

@@ -2,7 +2,7 @@
 #It outputs a file that shows the psm by sequence and the number of times it was seen confidently.
 
 '''
-Usage: psm_report_parser_confident.py protein_report_file_directory
+Usage: psm_report_parser_confident.py psm_report_file_directory
 '''
 
 import sys, glob
