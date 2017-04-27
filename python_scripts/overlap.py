@@ -19,6 +19,6 @@ with open(ref_file, "r") as ref_data:
 		line=line.split("\t")
 		#print(line[1])
 		if line[0] in acc_nums:
-			acc_num_in_both.append(line[1])
+			acc_num_in_both.append(line[0])
 
 print acc_num_in_both			
