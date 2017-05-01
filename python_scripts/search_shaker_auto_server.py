@@ -36,7 +36,7 @@ if not os.path.exists(out_path):
 	os.makedirs(out_path + '/peptide_shaker/reports')
 
 
-###Runn SearchCLI
+###Run SearchCLI (We used X!Tandem, OMSSA and MS-GF+. You may want to add/delete search engines as required)
 cmd = ['java', '-cp', SearchGUI, 'eu.isas.searchgui.cmd.SearchCLI', 
 		'-spectrum_files', '"' + mgf_file + '"', 
 		'-output_folder', '"' + out_path + '"', 
