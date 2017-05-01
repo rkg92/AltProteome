@@ -53,7 +53,7 @@ print('Running SearchCLI on %s\n' % mgf_file)
 process = subprocess.Popen(cmd)
 process.wait()
 
-###Runn PeptideShaker
+###Run PeptideShaker
 cmd2 = ['java', '-cp', PeptideShaker, 'eu.isas.peptideshaker.cmd.PeptideShakerCLI', 
 		'-experiment', 'AltOrfSearch',
 		'-sample', mgf_file.split('.')[0],
